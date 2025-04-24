@@ -92,7 +92,7 @@ etherestate/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/etherestate.git
+git clone https://github.com/HumayunK01/EtherEstate.git
 cd etherestate
 ```
 
