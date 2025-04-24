@@ -1,0 +1,179 @@
+.newsletter-section {
+  padding: 5rem 2rem;
+  margin-bottom: 0;
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 600px;
+}
+
+.newsletter-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.newsletter-description {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.newsletter-form {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.form-group input {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form-group input.error {
+  border: 1px solid #ef4444;
+}
+
+.form-group button {
+  background-color: #1e293b;
+  color: white;
+  border: none;
+  padding: 0 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #0f172a;
+}
+
+.error-message {
+  color: #fecaca;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-align: left;
+}
+
+.privacy-note {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+.success-message {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 0.5s ease;
+}
+
+.success-message svg {
+  color: #a5f3fc;
+  margin-bottom: 1rem;
+  width: 48px;
+  height: 48px;
+}
+
+.success-message p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.newsletter-decoration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.decoration-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.circle-1 {
+  width: 300px;
+  height: 300px;
+  top: -150px;
+  right: -100px;
+}
+
+.circle-2 {
+  width: 200px;
+  height: 200px;
+  bottom: -50px;
+  left: -50px;
+}
+
+.circle-3 {
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .newsletter-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .newsletter-title {
+    font-size: 2rem;
+  }
+
+  .form-group {
+    flex-direction: column;
+  }
+
+  .form-group input {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .form-group button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0 0 8px 8px;
+  }
+}

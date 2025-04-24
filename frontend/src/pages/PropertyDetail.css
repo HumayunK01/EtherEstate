@@ -1,0 +1,252 @@
+.property-detail-page {
+  /* padding: 2rem 0; */
+}
+
+.property-detail-container {
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.property-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #f3f4f6;
+  color: #4b5563;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #e5e7eb;
+}
+
+.property-badges {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.property-badge {
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.property-badge.not-listed {
+  background-color: #9ca3af;
+}
+
+.property-badge.rented {
+  background-color: #10b981;
+}
+
+.property-detail-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 0;
+}
+
+.property-detail-image {
+  height: 100%;
+  overflow: hidden;
+}
+
+.property-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.property-detail-info {
+  padding: 2rem;
+}
+
+.property-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.property-location {
+  color: #6b7280;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.property-price {
+  margin: 0;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4f46e5;
+}
+
+.price-period {
+  font-size: 1.2rem;
+  color: #6b7280;
+  margin-left: 0.5rem;
+}
+
+.property-features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  /* padding-bottom: 2rem; */
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-value {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #1f2937;
+}
+
+.feature-label {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.property-description h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.property-description p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.property-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.buy-button, .rent-button {
+  flex: 1;
+  /* padding: 1.5rem; */
+  height: auto;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  border: none;
+}
+
+.buy-button {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.buy-button:hover {
+  background-color: #4338ca;
+}
+
+.rent-button {
+  background-color: #10b981;
+  color: white;
+}
+
+.rent-button:hover {
+  background-color: #059669;
+}
+
+.list-button {
+  background-color: #f59e0b;
+  color: white;
+  border: none;
+  padding: 1rem 0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.list-button:hover {
+  background-color: #d97706;
+}
+
+.not-listed-info, .rental-info, .ownership-info {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 8px;
+  /* margin-bottom: 1rem; */
+}
+
+.not-listed-info p, .rental-info p, .ownership-info p {
+  margin: 0;
+  color: #4b5563;
+}
+
+.ownership-info {
+  /* margin-top: 1.5rem; */
+  border-top: 1px solid #e5e7eb;
+  /* padding-top: 1.5rem; */
+}
+
+@media (max-width: 768px) {
+  .property-detail-content {
+    grid-template-columns: 1fr;
+  }
+
+  .property-detail-image {
+    height: 300px;
+  }
+
+  .property-detail-info {
+    padding: 1.5rem;
+  }
+
+  .property-title {
+    font-size: 1.8rem;
+  }
+
+  .price {
+    font-size: 1.8rem;
+  }
+}
