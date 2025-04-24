@@ -7,7 +7,7 @@
   [![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://ethereum.org/)
   [![Hardhat](https://img.shields.io/badge/Hardhat-FFD700?style=for-the-badge&logo=ethereum&logoColor=black)](https://hardhat.org/)
 
-  <img src="https://github.com/user-attachments/assets/19c3b0f0-cc6e-48a1-948f-c2d4618b366f" alt="EtherEstate Banner" width="100%"/>
+  <img src="https://i.postimg.cc/52qT2wk5/15a67a15-5517-4622-af10-ece7c89dc024.png" alt="EtherEstate Banner" width="100%"/>
   
   <h3>
     <a href="https://ethestate.vercel.app/">View Demo</a>
