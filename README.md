@@ -10,7 +10,7 @@
   <img src="https://github.com/user-attachments/assets/19c3b0f0-cc6e-48a1-948f-c2d4618b366f" alt="EtherEstate Banner" width="100%"/>
   
   <h3>
-    <a href="https://theetherestate.vercel.app/">View Demo</a>
+    <a href="https://ethestate.vercel.app/">View Demo</a>
     <span> · </span>
     <a href="https://github.com/HumayunK01/EtherEstate">GitHub</a>
     <span> · </span>
