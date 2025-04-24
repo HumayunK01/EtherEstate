@@ -21,8 +21,6 @@
 </div>
 
 ## 🌐 Live Website
-- Production: [https://etherestate.vercel.app](https://theetherestate.vercel.app/)
-
 > **Note**: The live website is deployed on the Ethereum Sepolia testnet. Make sure to:
 > - Switch your MetaMask network to Sepolia
 > - Get some test ETH from [Sepolia Faucet](https://sepoliafaucet.com)
