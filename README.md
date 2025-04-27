@@ -33,6 +33,7 @@
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
+- [Case Diagrams](#-Use-Case-Diagram)
 - [Getting Started](#-getting-started)
 - [Smart Contracts](#-smart-contracts)
 - [Frontend Development](#-frontend-development)
@@ -78,6 +79,33 @@ etherestate/
     ├── test/            # Contract tests
     └── scripts/         # Deployment scripts
 ```
+
+## 🛠️ System Diagrams
+
+### Use Case Diagram
+The following diagram illustrates the key interactions between users and the EtherEstate platform:
+
+![Use Case Diagram](diagrams/usecasediagram.png)
+
+### Class Diagram
+This diagram shows the object-oriented structure of the smart contracts and their relationships:
+
+![Class Diagram](diagrams/classdiagram.png)
+
+### Activity Diagram
+The activity diagram demonstrates the flow of property transactions on the platform:
+
+![Activity Diagram](diagrams/activitydiagram.png)
+
+### Data Flow Diagram
+This diagram illustrates how data moves through the EtherEstate system:
+
+![Data Flow Diagram](diagrams/dataflowdiagram.png)
+
+### Workflow Diagram
+The workflow diagram shows the end-to-end process of listing and purchasing properties:
+
+![Workflow Diagram](diagrams/workflowdiagram.png)
 
 ## 🚀 Getting Started
 
